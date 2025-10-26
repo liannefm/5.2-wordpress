@@ -8,7 +8,7 @@ Version: 1.0
 */
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Forum", serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
@@ -17,19 +17,152 @@ body {
     min-height: 100vh;
 }
 
+h1, h2 {
+    font-weight: normal;
+}
+
 header {
-    background-color: #333;
+    background-color: #195d33;
     color: white;
-    padding: 20px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    padding: 10px 0;
+}
+
+header .logo {
+    height: 115px;
+}
+
+header .main {
+    position: absolute;
+    width: 100%;
     text-align: center;
 }
 
-#content {
-    padding: 20px;
+header .main nav ul {
+    padding: 0;
+    list-style: none;
 }
 
+header .main nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+.hero {
+    height: 50vh;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero .text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+.recent-blog h2, .recent-blogs h2 {
+    margin-top: 25px;
+
+    font-size: 24px;
+    text-align: center;
+}
+
+.recent-blog .blog {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    padding: 20px;
+    text-align: left;
+    margin: 0 auto;
+    width: 600px;
+
+    color: #000;
+    text-decoration: none;
+
+    border: solid #000000;
+    border-radius: 10px;
+}
+
+.recent-blog .blog img {
+    max-width: 250px;
+    height: auto;
+}
+
+.recent-blog .blog .info .title {
+    font-size: 48px;
+}
+
+.recent-blog .blog .info p {
+    font-size: 20px;
+}
+
+.recent-blogs h2 {
+    margin-top: 75px;
+}
+
+.recent-blogs .blogs {
+    width: 1150px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.recent-blogs .blogs .blog {
+    display: block;
+    text-align: left;
+    margin: 0 auto;
+    width: 350px;
+
+    color: #000;
+    text-decoration: none;
+
+    text-align: center;
+
+    border: solid #000000;
+    border-radius: 10px;
+
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.recent-blogs .blogs .blog img {
+    width: auto;
+    max-height: 350px;
+}
+
+.recent-blogs .blogs .blog .info {
+    max-width: 275px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.recent-blogs .blogs .blog .info .title {
+    font-size: 26px;
+
+    margin-top: -1px;
+    margin-bottom: -5px;
+}
+
+
+
 footer {
-    background-color: #333;
+    background-color: #195d33;
     color: white;
     text-align: center;
     padding: 20px;
