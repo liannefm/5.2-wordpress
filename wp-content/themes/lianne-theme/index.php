@@ -23,7 +23,7 @@ get_header();
     </div>
 
     <div class="recent-blog">
-        <h2>Laaste blog</h2>
+        <h2>Laatste blog</h2>
 
         <?php 
         if ($recent_post->have_posts()) :

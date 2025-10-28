@@ -99,7 +99,7 @@ header .main nav ul li a {
 }
 
 .recent-blog .blog img {
-    max-width: 250px;
+    max-width: 270px;
     height: auto;
 }
 
@@ -158,8 +158,6 @@ header .main nav ul li a {
     margin-top: -1px;
     margin-bottom: -5px;
 }
-
-
 
 footer {
     background-color: #195d33;
