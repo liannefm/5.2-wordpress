@@ -45,7 +45,7 @@ get_header();
     </div>
 
     <div class="recent-blogs">
-        <h2>Mijn recente blogs</h2>
+        <h2>Alle blogs</h2>
 
         <div class="blogs">
             <?php 

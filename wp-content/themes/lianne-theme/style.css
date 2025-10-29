@@ -30,6 +30,7 @@ header {
     align-items: center;
 
     padding: 10px 0;
+    margin-bottom: 15px;
 }
 
 header .logo {
@@ -89,7 +90,7 @@ header .main nav ul li a {
     padding: 20px;
     text-align: left;
     margin: 0 auto;
-    width: 600px;
+    width: 690px;
 
     color: #000;
     text-decoration: none;
@@ -99,7 +100,7 @@ header .main nav ul li a {
 }
 
 .recent-blog .blog img {
-    max-width: 270px;
+    max-width: 341px;
     height: auto;
 }
 
@@ -159,10 +160,55 @@ header .main nav ul li a {
     margin-bottom: -5px;
 }
 
+/* .onderwerpen p{
+    width: 50px;
+} */
+
 footer {
     background-color: #195d33;
     color: white;
     text-align: center;
     padding: 20px;
     bottom: 0;
+}
+
+#KonijnenInfo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tekstveldKonijnInfo{
+    text-align: center;
+    width: 1175px;
+    background-color: #195d33;
+    border-radius: 5px;
+    color: white;
+}
+
+#KonijnenInfo img{
+    width: 30%;
+    height: auto;
+}
+
+.bloginfopagina{
+    border: 3px solid #000;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 555px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+#blogvak{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
