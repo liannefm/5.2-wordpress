@@ -15,6 +15,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+    background-color: rgb(174 189 174);
 }
 
 h1, h2 {
@@ -83,7 +84,8 @@ header .main nav ul li a {
 }
 
 .recent-blog .blog {
-    display: flex;
+    display: flex; 
+    background-color: white;
     flex-direction: row;
     gap: 30px;
 
@@ -126,6 +128,7 @@ header .main nav ul li a {
 
 .recent-blogs .blogs .blog {
     display: block;
+    background-color: white;
     text-align: left;
     margin: 0 auto;
     width: 350px;
@@ -180,35 +183,88 @@ footer {
     align-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: rgb(174 189 174);
 }
 
 #tekstveldKonijnInfo{
-    text-align: center;
-    width: 1175px;
     background-color: #195d33;
+
+    width: 90%;
+    max-width: 1175px;
+    margin: 0 auto;
+
     border-radius: 5px;
+    text-align: center;
     color: white;
 }
 
 #KonijnenInfo img{
-    width: 30%;
+   width: 35%;
     height: auto;
+    border-radius: 10px;
 }
 
-.bloginfopagina{
+.bloginfopagina {
     border: 3px solid #000;
-    border-radius: 5px;
+    border-radius: 10px;
     display: flex;
-    padding: 10px;
-    margin: 10px;
-    width: 555px;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 30px;
+    text-align: center;
+
+    padding: 20px;
+    margin: 20px auto;
+    width: 40%;
+    max-width: 900px;
+    background-color: #fff;
+}
+
+/* Titel */
+.bloginfopagina h2, 
+.bloginfopagina p:first-of-type {
+    font-size: 24px;
+    color: #195d33;
+    margin-bottom: 10px;
+}
+
+/* Tekst */
+.bloginfopagina p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 750px;
+}
+
+/* Foto mooi onderaan */
+.bloginfopagina img {
+    width: 60%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+
+/* Responsief voor mobiel */
+@media (max-width: 768px) {
+    .bloginfopagina {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .bloginfopagina img {
+        width: 80%;
+    }
 }
 
 #blogvak{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+@media (max-width: 900px) {
+    #blogvak {
+        flex-direction: column;
+        align-items: center;
+    }
 }
