@@ -17,7 +17,7 @@ get_header();
 <main>
     <div class="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('<?php echo get_template_directory_uri(); ?>/assets/images/konijnenplat.jpg');">
         <div class="text">
-            <h1>Konijnen content</h1>
+            <h1>De konijnen website</h1>
             <p>Regelmatig schrijf ik blogs om mijn kennis en ervaring met jou te delen. Ze zitten bomvol tips & adviezen over gedrag, verzorging, huisvesting, voeding en gezondheid.</p>
         </div>
     </div>
