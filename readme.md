@@ -5,7 +5,7 @@ Dit project is een **volledige WordPress-installatie** die gebruikmaakt van dive
 De website kan eenvoudig worden hersteld via een **All-in-One WP Migration-back-upbestand (.wpress)**.
 
 **Let op:** het back-upbestand moet eerst worden gedownload van:  
-[https://files.tomtiedemann.com/share/w-qwqwS-](https://files.tomtiedemann.com/share/w-qwqwS-)
+[https://files.tomtiedemann.com/api/public/dl/w-qwqwS-/backupfile.wpress](https://files.tomtiedemann.com/api/public/dl/w-qwqwS-/backupfile.wpress)
 
 ---
 
@@ -33,7 +33,7 @@ Zorg dat de server of lokale omgeving het volgende ondersteunt:
 
 3. **Download en importeer de back-up**
    - Download het back-upbestand vanaf:  
-     [https://files.tomtiedemann.com/share/w-qwqwS-](https://files.tomtiedemann.com/share/w-qwqwS-)
+     [https://files.tomtiedemann.com/api/public/dl/w-qwqwS-/backupfile.wpress](https://files.tomtiedemann.com/api/public/dl/w-qwqwS-/backupfile.wpress)
 
    - Upload het bestand:
      ```
