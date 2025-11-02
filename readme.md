@@ -5,7 +5,7 @@ Dit project is een **volledige WordPress-installatie** die gebruikmaakt van dive
 De website kan eenvoudig worden hersteld via een **All-in-One WP Migration-back-upbestand (.wpress)**.
 
 **Let op:** het back-upbestand moet eerst worden gedownload van:  
-[https://files.tomtiedemann.com/api/public/dl/w-qwqwS-/backupfile.wpress](https://files.tomtiedemann.com/api/public/dl/w-qwqwS-/backupfile.wpress)
+[https://files.tomtiedemann.com/api/public/dl/w-qwqwS-/backupfile.wpress](https://files.tomtiedemann.com/api/public/dl/w-qwqwS-/backupfile.wpresslianne-plugin)
 
 ---
 
@@ -102,6 +102,13 @@ Zorg dat de server of lokale omgeving het volgende ondersteunt:
 
 ---
 
+### 5. Eigen plugin
+**Functie:** Zorgt er voor dat je de hero kan aanpassen.
+**Impact:**  
+- Maakt de hero dynamisch.
+
+---
+
 ## 🧠 Analyse van alternatieven
 
 | Functie | Gekozen Plugin | Reden van keuze |
@@ -111,3 +118,4 @@ Zorg dat de server of lokale omgeving het volgende ondersteunt:
 | Beveiliging | Wordfence Security | Wordfence biedt betere realtime bescherming |
 | Gevoelige data | Secure Custom Fields | Lichter en direct gericht op encryptie |
 | Caching | WP Super Cache | Betere compatibiliteit zonder specifieke serververeisten |
+| Hero Dynamisch | Eigen plugin |
