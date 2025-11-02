@@ -1,0 +1,7 @@
+
+# BEGIN INDEX
+# De richtlijnen (regels) tussen "BEGIN INDEX" en "END INDEX" worden
+# dynamisch gegenereerd en zouden alleen aangepast mogen worden via WordPress filters.
+# Alle wijzigingen aan de richtlijnen tussen deze markeringen worden overschreven.
+Options -Indexes
+# END INDEX
